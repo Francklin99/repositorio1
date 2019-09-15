@@ -18,7 +18,6 @@ public class metodosOficina {
     public void añadirOficina(){
         Scanner sc=new Scanner(System.in);
         
-//        sc.nextLine();
         System.out.println("\nIngrese nombre:");
         String nombre=sc.nextLine();
         System.out.println("Ingrese numero:");
