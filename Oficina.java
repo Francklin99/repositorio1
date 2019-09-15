@@ -6,33 +6,36 @@
 package javaapplication3;
 
 class Oficina{
+     
+     private String nombre;
+     private int numero;
 
-     String n_oficina;
-     public Oficina(){         
-        this.n_oficina="";
-     }
-
-    public String getN_oficina() {
-        return n_oficina;
+    public Oficina(String nombre, int numero) {
+        this.nombre = nombre;
+        this.numero = numero;
     }
 
-    public void setN_oficina(String n_oficina) {
-        this.n_oficina = n_oficina;
+    public String getNombre() {
+        return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    
+    
     @Override
     public String toString() {
-        return "Oficina{" + "n_oficina=" + n_oficina + '}';
+        return "Oficina: " + nombre + ", numero: " + numero;
     }
-
-   
-    
-}
-public class JavaApplication3 {
-
-  
-    public static void main(String[] args) {
-    
-    }
-    
+     
 }
