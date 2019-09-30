@@ -49,7 +49,7 @@ public class Alumno extends Persona{
         System.out.println(a.string());
         
         
-        //FRANK MI AMOR
+    //fiorela es feliz con otro
         
         
         
