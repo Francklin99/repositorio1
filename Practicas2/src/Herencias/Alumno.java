@@ -50,7 +50,7 @@ public class Alumno extends Persona{
         
         
     //fiorela es feliz con otro
-        
+        // ella no  te ama 
         
         
     }
